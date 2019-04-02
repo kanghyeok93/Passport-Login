@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%=title%></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+  <div id="main">
+      <div id="login">
+          <div class="f_m"><%=message1%></div>
+          <h1>LOGIN</h1>
+          <form action="/login" method="post">
+              <div class="email">
+                <label>Email :</label>
+                <input type="text" name="email">
+              </div>
+              <div>
+                <label>Password :</label>
+                <input type="password" name="password">
+              </div>
+              <div class="login_btn">
+                <input type="submit" value="Login">
+              </div>
+            </form>
+      </div>
+      <div id="kakao">
+          <a href="/kakao">카카오계정 로그인하기</a><img src="../images/카카오.jpg">
+      </div>
+      <div id="signup">
+          <div class="f_m"><%=message2%></div>
+          <h1>SIGNUP</h1>
+        <form action="/signup" method="post">
+            <div>
+                <label>Username :</label>
+                <input type="text" name="name">
+            </div>
+            <div class="email2">
+                <label>Email :</label>
+                <input type="text" name="email">
+            </div>
+            <div class="password">
+                <label>Password :</label>
+                <input type="password" name="password">
+            </div>
+            <div class="signup_btn">
+                <input type="submit" value="Sign up">
+            </div>
+        </form>
+      </div>
+  </div>
+  </body>
+</html>

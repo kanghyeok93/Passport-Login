@@ -1,0 +1,88 @@
+/* setting */
+*{ margin:0; padding:0; }
+*:focus { outline: none; }
+ul,li { display : inline-block }
+a { text-decoration:none; color:inherit; }
+
+/* 메인(전체) 영역 */
+#main{
+  padding:70px;
+  width:900px; position:absolute; top:50%; left:50%;
+  transform:translate(-50%,-50%);
+  text-align:center; box-shadow:0px 0px 30px sienna;
+}
+/* 로그인 부분 */
+#login{
+  width:50%; float:left;
+}
+#login h1{
+  margin-bottom:20px;
+}
+#login input{
+  width:150px; height:30px; border:1px solid black;
+  margin-top :15px;
+}
+#login input:nth-child(1){
+     height:40px; width:110px;
+}
+#login input:nth-child(1):hover{
+    color:red;
+}
+#login input:nth-child(2){
+    padding-left:10px;
+}
+.email{
+  margin-left:27px;
+}
+.login_btn{
+  margin-top:25px;
+}
+.login_btn input{
+    cursor:pointer; font-size:15px; border-radius:10px;
+}
+/* 회원가입 부분 */
+#signup{
+  width:50%; float:left;
+}
+#signup h1{
+    margin-bottom:5px;
+}
+#signup input{
+  width:150px; height:30px; border:1px solid black;
+  margin-top :15px; font-size:15px;
+}
+#signup input:nth-child(1){
+    height:40px; width:110px;
+}
+#signup input:nth-child(1):hover{
+    color:red;
+}
+#signup input:nth-child(2){
+    padding-left:10px;
+}
+.email2{
+  margin-left:34px;
+}
+.password{
+  margin-left:6px;
+}
+.signup_btn{
+  margin-top:10px; margin-left:27px;
+}
+.signup_btn input{
+  cursor:pointer;  border-radius:10px;
+}
+/* 카카오 */
+#kakao{
+  position:absolute; bottom:25px; left:50%; transform:translate(-50%,0);
+}
+#kakao a:hover{ color: red; }
+#kakao img{
+  width:50px; height:30px; border-radius:50%;
+}
+/* 플래쉬 메세지 */
+.f_m{
+  color:red;
+}
+
+
